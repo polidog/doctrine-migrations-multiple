@@ -1,0 +1,30 @@
+# This file is a "template" of what your parameters.yml file should look like
+parameters:
+    my_database_driver: pdo_mysql
+    my_database_host: 127.0.0.1
+    my_database_port: null
+    my_database_name: sftest
+    my_database_user: root
+    my_database_password: root
+
+    pg_database_driver: pdo_pgsql
+    pg_database_host: 127.0.0.1
+    pg_database_port: null
+    pg_database_name: sftest
+    pg_database_user: ~
+    pg_database_password: ~
+
+
+    mailer_transport:  smtp
+    mailer_host:       127.0.0.1
+    mailer_user:       ~
+    mailer_password:   ~
+
+    locale:            en
+
+    # A secret key that's used to generate certain security-related tokens
+    secret:            ThisTokenIsNotSoSecretChangeIt
+
+    debug_toolbar:          true
+    debug_redirects:        false
+    use_assetic_controller: true

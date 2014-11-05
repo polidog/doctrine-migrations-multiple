@@ -1,0 +1,13 @@
+<?php
+
+namespace Polidog\App\MysqlBundle\Controller;
+
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+
+class DefaultController extends Controller
+{
+    public function indexAction($name)
+    {
+        return $this->render('PolidogAppMysqlBundle:Default:index.html.twig', array('name' => $name));
+    }
+}

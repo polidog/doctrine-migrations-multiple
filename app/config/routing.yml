@@ -1,0 +1,8 @@
+polidog_app_postgres:
+    resource: "@PolidogAppPostgresBundle/Resources/config/routing.yml"
+    prefix:   /
+
+polidog_app_mysql:
+    resource: "@PolidogAppMysqlBundle/Resources/config/routing.yml"
+    prefix:   /
+

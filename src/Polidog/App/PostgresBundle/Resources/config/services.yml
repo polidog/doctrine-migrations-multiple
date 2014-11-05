@@ -1,0 +1,4 @@
+services:
+#    polidog_app_postgres.example:
+#        class: Polidog\App\PostgresBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
